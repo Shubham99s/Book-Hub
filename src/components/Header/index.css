@@ -1,0 +1,154 @@
+#navbar {
+  height: 6vh;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.menu {
+  color: #64748b;
+  font-weight: 400;
+}
+
+.active {
+  font-family: 'Roboto';
+  color: #0284c7;
+  font-weight: 500;
+}
+
+.inactive {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 300;
+}
+
+#navbar button {
+  background-color: #0284c7;
+  border: 0;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#navbar img {
+  width: 110px;
+}
+
+#menu-button {
+  display: none;
+}
+
+#menu-button button {
+  background-color: transparent;
+  color: #475569;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 970px) {
+  #navbar {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #navbar {
+    padding: 5px 5px;
+  }
+
+  #navbar ul {
+    gap: 10px;
+  }
+
+  .active {
+    font-size: 14px;
+  }
+
+  .inactive {
+    font-size: 14px;
+  }
+
+  #navbar button {
+    padding: 8px 16px;
+  }
+
+  #navbar img {
+    width: 90px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #navbar ul {
+    display: none;
+  }
+
+  #menu-button {
+    display: flex;
+  }
+
+  #popup-menu {
+    background-color: #000000ea;
+    padding: 10px 10px;
+    border-radius: 10px 4px 10px 10px;
+  }
+
+  #popup-menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #popup-menu li {
+    margin: 10px 0px;
+  }
+
+  .active {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #00aaff;
+    text-align: right;
+    font-weight: 500;
+  }
+
+  .inactive {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 500;
+  }
+
+  #popup-menu button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #0284c7;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+  }
+}
+.popup-arrow {
+  color: #000000ea;
+}

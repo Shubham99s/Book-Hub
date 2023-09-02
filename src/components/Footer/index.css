@@ -1,0 +1,13 @@
+#Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.react-icons {
+  color: #3d3c3c;
+  margin: 0px 10px 0px 10px;
+  font-size: 18px;
+}
