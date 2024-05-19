@@ -1,7 +1,10 @@
 Created an bookstore website **Book Hub** mainly based on REACT.JS(as frontend project).
+
 Creating an app that will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
 
-### Prerequisites
+### Login Credentials :-
+    username: rahul
+    password: rahul@2021
 
 
 #### Design Files
