@@ -1,34 +1,8 @@
-In this project let's build a **Book Hub** by applying the concepts we have learned till now. This project allows you to practice the concepts and techniques learned till React Course and apply them in a concrete project.
-
-You will demonstrate your skills by creating an app that will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
-
-This is an individual assessment. All work must be your own.
+Created an bookstore website **Book Hub** mainly based on REACT.JS(as frontend project).
+Creating an app that will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
 
 ### Prerequisites
 
-#### UI Prerequisites
-
-<details>
-<summary>Click to view</summary>
-
-- What is Figma?
-  - Figma is a vector graphics editor and prototyping tool which is primarily web-based. You can check more info on the <a href="https://www.figma.com/" target="_blank">Website</a>.
-- Create a Free account in Figma
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=hrHL2VLMl7g&t=37s" target="_blank">this</a> video to create a Free Figma account. Watch the video upto **00:50**.
-- How to Check CSS in Figma?
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=B242nuM3y2s" target="_blank">this</a> video to check CSS in the Figma screen. Watch the video upto **02:45**.
-- Export Images in Figma screen
-
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=NpzL1MONwaw" target="_blank">this</a> video to export images from the Figma screen.
-  - Click on the Export button to get Export options as shown in the below image.
-
-  <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
-    <img src="https://assets.ccbp.in/frontend/react-js/figma-export-option.png" />
-  </div>
-
-- Upload your exported images from Figma to Cloudinary and get image URLs from Cloudinary. Refer <a href="https://learning.ccbp.in/projects/course?c_id=fe4c935d-3ad5-4bb8-a1a5-9b045ae70010&s_id=2f72d6fe-09a7-4c0a-b0db-196740c853a0&t_id=6535e48d-fb4e-45c4-9654-3da423c79e26" target="_blank">this</a> session for better understanding.
-
-</details>
 
 #### Design Files
 
@@ -54,32 +28,31 @@ This is an individual assessment. All work must be your own.
 
 <details>
 
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
-The app must have the following functionalities
 
 - **Login Route**
 
-  - When the invalid username and password are provided and the **Login** button is clicked, then the respective error message received from the response should be displayed
-  - When the valid username and password are provided and the **Login** button is clicked, then the page should be navigated to the Home Route
-  - When an _unauthenticated_ user tries to access the Home, Bookshelves and Book Details Route, then the page should be navigated to the Login Route
-  - When an _authenticated_ user tries to access the Home, Bookshelves and Book Details Route, then the page should be navigated to the respective route
-  - When an _authenticated_ user tries to access the Login Route, then the page should be navigated to the Home Route
+  - When the invalid username and password are provided and the **Login** button is clicked, then the respective error message received from the response will displayed
+  - When the valid username and password are provided and the **Login** button is clicked, then the page will navigated to the Home Route
+  - When an _unauthenticated_ user tries to access the Home, Bookshelves and Book Details Route, then the page will navigated to the Login Route
+  - When an _authenticated_ user tries to access the Home, Bookshelves and Book Details Route, then the page will navigated to the respective route
+  - When an _authenticated_ user tries to access the Login Route, then the page will navigated to the Home Route
 
 - **Home Route**
 
   - When an _authenticated_ user opens the Home Route,
 
-    - An HTTP GET request should be made to **Top Rated Books API URL** with `jwt_token` in the Cookies
+    - An HTTP GET request is made to **Top Rated Books API URL** with `jwt_token` in the Cookies
 
-      - **_Loader_** should be displayed while fetching the data
+      - **_Loader_** is displayed while fetching the data
       - After the data is fetched successfully, display the list of top rated books received from the response
-      - If the HTTP GET request made is unsuccessful, then the failure view given in the **Figma** screens should be displayed
+      - If the HTTP GET request made is unsuccessful, then the failure view given in the **Figma** screens is displayed
 
-        - When the **Try Again** button is clicked, an HTTP GET request should be made to **Top Rated Books API URL**
+        - When the **Try Again** button is clicked, an HTTP GET request is made to **Top Rated Books API URL**
 
-      - When the **Find Books** button is clicked, then the page should be navigated to the Bookshelves Route
-      - When a **book item** is clicked, then the page should be navigated to the Book Details Route
+      - When the **Find Books** button is clicked, then the page will navigated to the Bookshelves Route
+      - When a **book item** is clicked, then the page will navigated to the Book Details Route
 
     - **Header**  
     
